@@ -1,1 +1,1 @@
-# frontend-styleguide
+# Welcome to our nifty frontend styleguide
