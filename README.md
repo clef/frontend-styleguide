@@ -19,7 +19,9 @@ We use the BEM (block__element--modifier) to name class selectors. We should avo
 If a style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`. A utility class selector looks like:
 
 ```css
-`.u-italic`
+.u-italic,
+.u-uppercase,
+.u-text-center
 ```
 
 _*A small caveat to the utility class naming convention is that it violates_
