@@ -31,3 +31,9 @@ If a style is re-used on more than 3 different views or files in our app, consid
 ### Quotes
 
 ### Commenting
+
+## Style
+
+### Color
+
+We use variables for color. All of our color variables are in `/common` under `static/scss/settings/colors.scss`. 
