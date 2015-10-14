@@ -1,4 +1,4 @@
-# Welcome to our nifty frontend styleguide
+# Clef CSS Styleguide
 
 When contributing _new_ CSS here are some conventions to consider to better write CSS as a team.
 
