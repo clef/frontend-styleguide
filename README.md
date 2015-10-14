@@ -1,10 +1,10 @@
-# Clef CSS Styleguide
+# Clef Frontend Styleguide
 
 When contributing _new_ CSS here are some conventions to consider to better write CSS as a team.
 
 ## Semantics
 
-Strive for specificity over brevity. The more specific our class selectors _are_, the easier it is to find and debug our CSS.
+Always strive for specificity over brevity. The more specific our class selectors _are_, the easier it is to find and debug our CSS.
 
 ### Syntax
 
