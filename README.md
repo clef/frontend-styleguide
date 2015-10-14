@@ -1,6 +1,6 @@
 # Welcome to our nifty frontend styleguide
 
-When contributing _new_ CSS here are some conventions we want to strive for or toward.
+When contributing _new_ CSS here are some conventions to consider when writing CSS as a team.
 
 ## Semantics
 
