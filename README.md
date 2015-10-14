@@ -2,11 +2,11 @@
 
 When contributing _new_ CSS here are some conventions we want to strive for or toward.
 
-### Semantics
+## Semantics
 
 Strive for specificity over brevity. The more specific our class selectors _are_, the easier it is to find and debug our CSS.
 
-## Syntax
+### Syntax
 
 We use the BEM (block__element--modifier) to name class selectors. We should avoid applying styles to IDs. We should also avoid targeting descendant selectors. We use hypens to separate two words in the same name space, not camelCasing. We should avoid copying or mimic-ing JavaScript syntax for styling.
 
