@@ -24,7 +24,7 @@ If a style is re-used on more than 3 different views or files in our app, consid
 .u-text-center
 ```
 
-_*A small caveat to the utility class naming convention is that it violates_
+_*A small caveat to the utility class naming convention is that it somewhat violates the BEM naming convention._
 
 ### Naming Variables
 
