@@ -36,9 +36,9 @@ _*A small caveat to the utility class naming convention is that it somewhat viol
 
 ### Commenting
 
-Commenting CSS helps better visually distinguish groups of related CSS blocks in our files and offers additional context for our teammates around styles that affect one another.
+Commenting our CSS helps better visually distinguish groups of related blocks of CSS. Commeting also allows us to offer additional context to our teammates around styles that affect one another.
 
-```
+```css
 /* Dashboard Header */
 ```
 
