@@ -20,16 +20,6 @@ We use the BEM (block__element--modifier) syntax to name class selectors. Avoid 
 </div>
 ```
 
-If a specific style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`. 
-
-A utility class selector looks like:
-
-```css
-.u-italic,
-.u-uppercase,
-.u-text-center
-```
-
 ### Spacing
 
 Using proper spacing is important for writing readable code. Something to remember: "Would you write an email without any spacing?"
@@ -66,7 +56,7 @@ The wrong way:
 ```
 ### Listing CSS Properties
 
-Organize CSS properties into groups according to how they affect the DOM or are loaded on a page. Our compiled CSS actually shows re-ordered CSS properties, so we should always base how we order them in our css files on what's easiest to search for, read, and debug.
+Our compiled CSS actually shows re-ordered CSS properties, so we should alway order them in our CSS files both by grouping them logically and what's easiest to search for, read, and debug.
 
   1. **Display properties** (or things that affect the box model of an element or object)
   2. **Type** (things that affect how fonts are displayed and positioned & their corresponding Visual Styles)
