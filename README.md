@@ -16,7 +16,7 @@ We use the BEM (block__element--modifier) syntax to name class selectors. Avoid 
 </div>
 ```
 
-If a specific style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`. 
+If a specific style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`.
 
 A utility class selector looks like:
 
@@ -37,27 +37,25 @@ The right way:
   box-sizing: border-box;
   display: block;
   width: $width;
-  height: $height; 
+  height: $height;
 }
 
 .block__element--modifier {
-  height: calc($height / 2); 
+  height: calc($height / 2);
 }
 
 ```
 
-The wrong way: 
+The wrong way:
 
 ```css
 .block__element{
   box-sizing:border-box;
   display:block;
   width:$width;
-  height:$height; 
+  height:$height;
 }
-.block__element--modifier{
-  height:calc($height / 2); 
-}
+.block__element--modifier{ height:calc($height/2); }
 
 ```
 ### Listing CSS Properties
@@ -76,7 +74,7 @@ An example:
   box-sizing: border-box;
   display: block;
   width: $width;
-  height: $height; 
+  height: $height;
   margin: 0 auto;
   padding: 0;
 
