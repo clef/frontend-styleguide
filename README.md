@@ -54,8 +54,8 @@ The wrong way:
 .block__element {
   box-sizing: border-box;
   display: block;
-  height: $height; 
   width: $width;
+  height: $height; 
 }
 
 .block__element--modifier {
