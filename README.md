@@ -8,11 +8,11 @@ Always strive for specificity over brevity. The more specific our class selector
 
 ### Syntax
 
-We use the SCSS flavor of SASS to preprocess our CSS.
+We use the SCSS flavor of SASS to preprocess our CSS. You might want to use [scss-lint](https://github.com/brigade/scss-lint) with the configuration provided in this repository.
 
 ### Naming Conventions
 
-We use the BEM (block__element--modifier) syntax to name class selectors. Avoid applying styles to IDs and targeting descendant selectors. We use hypens to separate two words in the same name space, not camelCasing. We should avoid copying or mimic-ing JavaScript syntax for styling, as it can be confusing.
+We use the BEM (block__element--modifier) syntax to name class selectors. Avoid applying styles to IDs and targeting descendant selectors. We use hyphens to separate two words in the same name space. We should avoid copying or mimic-ing JavaScript syntax for styling, as it can be confusing.
 
 ```html
 <div class="dashboard">
@@ -20,7 +20,7 @@ We use the BEM (block__element--modifier) syntax to name class selectors. Avoid 
 </div>
 ```
 
-If a specific style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`. 
+If a specific style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`.
 
 A utility class selector looks like:
 
@@ -32,7 +32,7 @@ A utility class selector looks like:
 
 ### Spacing
 
-Using proper spacing is important for writing readable code. Something to remember: "Would you write an email without any spacing?"
+Using proper spacing is important for writing readable code. Something to remember: "Would you write an email without any spacing?". We use two spaces for indenting both HTML and CSS, in CSS we leave one space between the selector and the opening bracket, one space before the CSS value and one space on each side of an operator.
 
 The right way:
 
@@ -41,26 +41,26 @@ The right way:
   box-sizing: border-box;
   display: block;
   width: $width;
-  height: $height; 
+  height: $height;
 }
 
 .block__element--modifier {
-  height: calc($height / 2); 
+  height: calc($height / 2);
 }
 
 ```
 
-The wrong way: 
+The wrong way:
 
 ```css
 .block__element{
   box-sizing:border-box;
   display:block;
   width:$width;
-  height:$height; 
+  height:$height;
 }
 .block__element--modifier{
-  height:calc($height / 2); 
+  height:calc($height/2);
 }
 
 ```
@@ -80,7 +80,7 @@ An example:
   box-sizing: border-box;
   display: block;
   width: $width;
-  height: $height; 
+  height: $height;
   margin: 0 auto;
   padding: 0;
 
@@ -114,7 +114,7 @@ background: url("images/bg.jpeg");
 
 ### Units of Measure
 
-Use pixels for font-sizes and whole integers for letter-spacing.
+Use pixels for font-sizes and whole decimals for letter-spacing.
 
 ```css
 font-size: 16px;
@@ -143,7 +143,7 @@ $color-yellow: rgb(255,199,0);
 
 ### Images
 
-For non-transparent images use the JPEG format when possible. For non-decorative images, images that a user may depend on for understanding content, etc., use the HTML <img> tag or inline images and _not_ the `background-image` property in your CSS.
+For non-transparent images use the JPEG format when possible. For content-related (e.g. non-decorative) images, images that a user may depend on for understanding content, etc., use the HTML <img> tag and _not_ the `background-image` property in your CSS.
 
 ## Additional Resources
 
