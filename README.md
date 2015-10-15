@@ -147,3 +147,4 @@ For non-transparent images use the JPEG format when possible. For non-decorative
 
 * [CSS Best Practices by Sezgi Uluçam](https://github.com/sezgi/CSS-Best-Practices)
 * [Desigining for Performance by Lara Hogan](http://larahogan.me/design/)
+* [SASS Guidelines](http://sass-guidelin.es/)
