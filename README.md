@@ -51,15 +51,14 @@ The right way:
 The wrong way: 
 
 ```css
-.block__element {
-  box-sizing: border-box;
-  display: block;
-  width: $width;
-  height: $height; 
+.block__element{
+  box-sizing:border-box;
+  display:block;
+  width:$width;
+  height:$height; 
 }
-
-.block__element--modifier {
-  height: calc($height / 2); 
+.block__element--modifier{
+  height:calc($height / 2); 
 }
 
 ```
