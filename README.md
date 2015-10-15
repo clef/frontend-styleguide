@@ -8,6 +8,10 @@ Always strive for specificity over brevity. The more specific our class selector
 
 ### Syntax
 
+We use the SCSS flavor of SASS to preprocess our CSS.
+
+### Naming Conventions
+
 We use the BEM (block__element--modifier) syntax to name class selectors. Avoid applying styles to IDs and targeting descendant selectors. We use hypens to separate two words in the same name space, not camelCasing. We should avoid copying or mimic-ing JavaScript syntax for styling, as it can be confusing.
 
 ```html
