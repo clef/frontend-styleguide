@@ -98,6 +98,8 @@ An example:
 
 Inside of the actual groups, we recommend listing properties alphabetically. And add a space between groups if and when there are more than 12 properties listed. Feel free to make a judgement call here based on how well you can parse the code.
 
+## Style
+
 ### Quotes
 
 Although either is technically fine, for consistency's sake let's use double-quotes.
