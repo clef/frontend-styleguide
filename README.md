@@ -133,7 +133,7 @@ $color-yellow: rgb(255,199,0);
 
 ### Images
 
-For non-transparent images use the JPEG format when possible. For non-decorative images, images that a user may depend on for understanding content, etc., use the HTML <img> tag or inline images and _not_ the `background-image` property in your CSS.
+For non-transparent images use the JPEG format when possible. For non-decorative images, images that a user may depend on for understanding content, etc., use the HTML `<img/>` tag or inline images and _not_ the `background-image` property in your CSS.
 
 ## Additional Resources
 
