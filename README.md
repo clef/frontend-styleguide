@@ -64,7 +64,7 @@ Organize CSS properties into groups according to how they affect the DOM or are 
 
   1. **Display properties** (or things that affect the box model of an element or object)
   2. **Type** (things that affect how fonts are displayed and positioned & their corresponding Visual Styles)
-  3. **Decorative properties** (properties that are specific to decoration on structural [non-typographic elements)
+  3. **Decorative properties** (properties that are specific to decoration on structural non-typographic elements)
   4. **Animations and/or element transitions**
 
 An example:
