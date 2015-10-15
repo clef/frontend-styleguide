@@ -84,8 +84,8 @@ Although either is technically fine, for consistency's sake let's use double-quo
 Use pixels for font-sizes and whole integers for letter-spacing.
 
 ```css
-  font-size: 16px; /* px preferred */
-  line-height: 1.5; /* integers preferred */
+  font-size: 16px;
+  line-height: 1.5;
 ```
 
 ### Commenting
@@ -100,7 +100,7 @@ Commenting our CSS helps better visually distinguish groups of related blocks of
 
 ### Color
 
-We use variables for color. All of our color variables are in `/common` under `static/scss/settings/colors.scss`. 
+We use variables for color. All of our color variables are in `/common` under `static/scss/settings/colors.scss`. Our colors should be stored as RGB or RGBA values.
 
 ### Images
 
