@@ -1,6 +1,6 @@
 # Clef's Front-end Styleguide
 
-Here are some CSS and HTML best practices to use and consult when writing new CSS at Clef.
+Here are some CSS and HTML best practices to consider when writing new CSS at Clef.
 
 ## Semantics
 
@@ -8,7 +8,7 @@ Always strive for specificity over brevity. The more specific our class selector
 
 ### Syntax
 
-We use the BEM (block__element--modifier) syntax to name class selectors. We should avoid applying styles to IDs. We should also avoid targeting descendant selectors. We use hypens to separate two words in the same name space, not camelCasing. We should avoid copying or mimic-ing JavaScript syntax for styling, as it can be confusing.
+We use the BEM (block__element--modifier) syntax to name class selectors. Avoid applying styles to IDs and targeting descendant selectors. We use hypens to separate two words in the same name space, not camelCasing. We should avoid copying or mimic-ing JavaScript syntax for styling, as it can be confusing.
 
 ```html
 <div class="dashboard">
@@ -16,7 +16,9 @@ We use the BEM (block__element--modifier) syntax to name class selectors. We sho
 </div>
 ```
 
-If a specific style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`. A utility class selector looks like:
+If a specific style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`. 
+
+A utility class selector looks like:
 
 ```css
 .u-italic,
@@ -26,7 +28,7 @@ If a specific style is re-used on more than 3 different views or files in our ap
 
 ### Spacing
 
-Using proper spacing is important for writing readable code. Something to remember: "Would you write an email without any spacing?" 
+Using proper spacing is important for writing readable code. Something to remember: "Would you write an email without any spacing?"
 
 The right way:
 
@@ -60,7 +62,7 @@ The wrong way:
 ```
 ### Listing CSS Properties
 
-Organize CSS properties into groups according to how they affect the DOM or are loaded on a page.
+Organize CSS properties into groups according to how they affect the DOM or are loaded on a page. Our compiled CSS actually shows re-ordered CSS properties, so we should always base how we order them in our css files on what's easiest to search for, read, and debug.
 
   1. **Display properties** (or things that affect the box model of an element or object)
   2. **Type** (things that affect how fonts are displayed and positioned & their corresponding Visual Styles)
