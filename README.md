@@ -22,7 +22,7 @@ We use the BEM (block__element--modifier) syntax to name class selectors. Avoid 
 
 ### Spacing
 
-Using proper spacing is important for writing readable code. Something to remember: "Would you write an email without any spacing?"
+Using proper spacing is important for writing readable code. Something to remember: "Would you write an email without any spacing?" We use two-space indentation and no trailing white-space at the ends of lines.
 
 The right way:
 
