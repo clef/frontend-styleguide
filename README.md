@@ -105,17 +105,17 @@ Inside of the actual groups, we recommend listing properties alphabetically.
 
 Although either is technically fine, for consistency's sake let's use double-quotes.
 
-```
-  background: url("images/bg.jpeg");
+```css
+background: url("images/bg.jpeg");
 ```
 
 ### Units of Measure
 
 Use pixels for font-sizes and whole integers for letter-spacing.
 
-```
-  font-size: 16px;
-  line-height: 1.5;
+```css
+font-size: 16px;
+line-height: 1.5;
 ```
 
 ### Commenting
