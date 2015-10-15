@@ -115,7 +115,7 @@ Use pixels for font-sizes and whole integers for letter-spacing.
 
 ```css
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1;
 ```
 
 ### Commenting
