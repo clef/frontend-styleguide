@@ -30,9 +30,17 @@ _*A small caveat to the utility class naming convention is that it somewhat viol
 
 ### Spacing
 
+### Listing CSS Properties
+
 ### Quotes
 
 ### Commenting
+
+Commenting CSS helps better visually distinguish groups of related CSS blocks in our files and offers additional context for our teammates around styles that affect one another.
+
+```
+/* Dashboard Header */
+```
 
 ## Style
 
