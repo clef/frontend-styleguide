@@ -117,7 +117,7 @@ line-height: 1.5;
 
 ### Commenting
 
-Commenting our CSS helps better visually distinguish groups of related blocks. Commeting also allows us to offer additional context to our teammates around styles that may affect one another.
+Commenting our CSS helps better visually distinguish groups of related blocks. Commenting also allows us to offer additional context to our teammates around styles that may affect one another.
 
 An example:
 
