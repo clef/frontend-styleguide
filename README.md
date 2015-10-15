@@ -39,3 +39,7 @@ _*A small caveat to the utility class naming convention is that it somewhat viol
 ### Color
 
 We use variables for color. All of our color variables are in `/common` under `static/scss/settings/colors.scss`. 
+
+### Images
+
+For non-transparent images use the JPEG format when possible. For non-decorative images, images that a user may depend on for understanding content, etc., use the HTML image tag and not the `background-image` property in your CSS.
