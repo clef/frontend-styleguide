@@ -66,10 +66,10 @@ The wrong way:
 
 Organize CSS properties into groups according to how they affect the DOM or are loaded on a page.
 
-  1. Display properties (or things that affect the box model of an element or object)
-  2. Type (things that affect how fonts are displayed and positioned & their corresponding Visual Styles)
-  3. Decorative properties (properties that are specific to decoration on structural [non-typographic elements)
-  4. Animations and/or element transitions
+  1. **Display properties** (or things that affect the box model of an element or object)
+  2. **Type** (things that affect how fonts are displayed and positioned & their corresponding Visual Styles)
+  3. **Decorative properties** (properties that are specific to decoration on structural [non-typographic elements)
+  4. **Animations and/or element transitions**
 
 An example:
 
@@ -127,13 +127,11 @@ An example:
 /* Dashboard Header */
 ```
 
-## Style
-
 ### Color
 
 We use variables for color. All of our color variables are in `/common` under `static/scss/settings/colors.scss`. Our colors should be stored as RGB or RGBA values.
 
-```css
+```scss
 $color-orange: rgb(255,153,63);
 $color-blue: rgb(13,157,219);
 $color-yellow: rgb(255,199,0);
