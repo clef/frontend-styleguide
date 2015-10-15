@@ -20,7 +20,7 @@ We use the BEM (block__element--modifier) syntax to name class selectors. Avoid 
 </div>
 ```
 
-If a specific style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`. 
+If a specific style is re-used on more than 3 different views or files in our app, consider making a utility class for it. Utility classes should begin with or be prepended by `u-`.
 
 A utility class selector looks like:
 
@@ -41,36 +41,34 @@ The right way:
   box-sizing: border-box;
   display: block;
   width: $width;
-  height: $height; 
+  height: $height;
 }
 
 .block__element--modifier {
-  height: calc($height / 2); 
+  height: calc($height / 2);
 }
 
 ```
 
-The wrong way: 
+The wrong way:
 
 ```css
 .block__element{
   box-sizing:border-box;
   display:block;
   width:$width;
-  height:$height; 
+  height:$height;
 }
-.block__element--modifier{
-  height:calc($height / 2); 
-}
+.block__element--modifier{ height:calc($height/2); }
 
 ```
 ### Listing CSS Properties
 
-Organize CSS properties into groups according to how they affect the DOM or are loaded on a page. Our compiled CSS actually shows re-ordered CSS properties, so we should always base how we order them in our css files on what's easiest to search for, read, and debug.
+Organize CSS properties into groups according to how they affect the DOM or are loaded on a page. Our compiled CSS actually shows re-ordered CSS properties, so we should always base how we order them in our CSS files on what's easiest to search for, read, and debug.
 
   1. **Display properties** (or things that affect the box model of an element or object)
   2. **Type** (things that affect how fonts are displayed and positioned & their corresponding Visual Styles)
-  3. **Decorative properties** (properties that are specific to decoration on structural [non-typographic elements)
+  3. **Decorative properties** (properties that are specific to decoration on structural non-typographic elements)
   4. **Animations and/or element transitions**
 
 An example:
@@ -80,7 +78,7 @@ An example:
   box-sizing: border-box;
   display: block;
   width: $width;
-  height: $height; 
+  height: $height;
   margin: 0 auto;
   padding: 0;
 
@@ -123,7 +121,7 @@ line-height: 1.5;
 
 ### Commenting
 
-Commenting our CSS helps better visually distinguish groups of related blocks. Commeting also allows us to offer additional context to our teammates around styles that may affect one another.
+Commenting our CSS helps better visually distinguish groups of related blocks. Commenting also allows us to offer additional context to our teammates around styles that may affect one another.
 
 An example:
 
