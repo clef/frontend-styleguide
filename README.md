@@ -8,7 +8,7 @@ Always strive for specificity over brevity. The more specific our class selector
 
 ### Syntax
 
-We use the BEM (block__element--modifier) to name class selectors. We should avoid applying styles to IDs. We should also avoid targeting descendant selectors. We use hypens to separate two words in the same name space, not camelCasing. We should avoid copying or mimic-ing JavaScript syntax for styling, as it can be confusing.
+We use the BEM (block__element--modifier) syntax to name class selectors. We should avoid applying styles to IDs. We should also avoid targeting descendant selectors. We use hypens to separate two words in the same name space, not camelCasing. We should avoid copying or mimic-ing JavaScript syntax for styling, as it can be confusing.
 
 ```html
 <div class="dashboard">
@@ -23,10 +23,6 @@ If a specific style is re-used on more than 3 different views or files in our ap
 .u-uppercase,
 .u-text-center
 ```
-
-_*A small caveat to the utility class naming convention is that it somewhat violates the BEM naming convention._
-
-### Naming Variables
 
 ### Spacing
 
@@ -98,7 +94,7 @@ An example:
 }
 ```
 
-Inside of the actual groups, we recommend listing properties alphabetically.
+Inside of the actual groups, we recommend listing properties alphabetically. And add a space between groups if and when there are more than 12 properties listed. Feel free to make a judgement call here based on how well you can parse the code.
 
 ### Quotes
 
