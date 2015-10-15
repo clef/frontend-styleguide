@@ -104,7 +104,7 @@ background: url("images/bg.jpeg");
 
 ### Units of Measure
 
-Use pixels for font-sizes and whole integers for letter-spacing.
+Use pixels for font-sizes and whole integers for line-height. Instead of using rems or ems, we should scale our type and spacing sizes or variables down or up to be properly viewed and legible on mobile.
 
 ```css
 font-size: 16px;
