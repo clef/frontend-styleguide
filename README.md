@@ -60,7 +60,7 @@ The wrong way:
 ```
 ### Listing CSS Properties
 
-Organize CSS properties into groups according to how they affect the DOM or are loaded on a page. Our compiled CSS actually shows re-ordered CSS properties, so we should always base how we order them in our css files on what's easiest to search for, read, and debug.
+Organize CSS properties into groups according to how they affect the DOM or are loaded on a page. Our compiled CSS actually shows re-ordered CSS properties, so we should always base how we order them in our CSS files on what's easiest to search for, read, and debug.
 
   1. **Display properties** (or things that affect the box model of an element or object)
   2. **Type** (things that affect how fonts are displayed and positioned & their corresponding Visual Styles)
