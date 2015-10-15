@@ -67,13 +67,43 @@ The wrong way:
 
 Organize CSS properties into groups according to how they affect the DOM or are loaded on a page.
 
-The right way:
+  1. Display properties (or things that affect the box model of an element or object)
+  2. Type (things that affect how fonts are displayed and positioned & their corresponding Visual Styles)
+  3. Decorative properties (properties that are specific to decoration on structural [non-typographic elements)
+  4. Animations and/or element transitions
 
-The wrong way:
+An example:
+
+```css
+.block__element {
+  box-sizing: border-box;
+  display: block;
+  width: $width;
+  height: $height; 
+  margin: 0 auto;
+  padding: 0;
+
+  color: $color;
+  font-family: $Open-Sans;
+  font-size: 16px; /* px preferred */
+  line-height: 1.5; /* integers preferred */
+  text-align: center;
+
+  background: $bg-color url('images/bg.jpeg');
+  background-color: $bg-color;
+  background-image: url('images/bg.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid $border-color;
+}
+```
+
+Inside of the actual groups, we recommend listing properties alphabetically.
 
 ### Quotes
 
-Although either is technically fine, for consistency's sake let's use double-quotes in our CSS.
+Although either is technically fine, for consistency's sake let's use double-quotes.
 
 ```css
   background: url("images/bg.jpeg");
@@ -90,7 +120,9 @@ Use pixels for font-sizes and whole integers for letter-spacing.
 
 ### Commenting
 
-Commenting our CSS helps better visually distinguish groups of related blocks of CSS. Commeting also allows us to offer additional context to our teammates around styles that affect one another.
+Commenting our CSS helps better visually distinguish groups of related blocks. Commeting also allows us to offer additional context to our teammates around styles that may affect one another.
+
+An example:
 
 ```css
 /* Dashboard Header */
