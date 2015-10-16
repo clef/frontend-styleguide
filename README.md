@@ -56,7 +56,7 @@ The wrong way:
 ```
 ### Listing CSS Properties
 
-Our compiled CSS actually shows re-ordered CSS properties, so we should alway order them in our CSS files by grouping them logically and optimizing for what's easiest to search for, read, and debug.
+Our compiled CSS actually shows re-ordered CSS properties, so we should always order them in our CSS files by grouping them logically and optimizing for what's easiest to search for, read, and debug.
 
   1. **Display properties** (or things that affect the box model of an element or object)
   2. **Type** (things that affect how fonts are displayed and positioned & their corresponding Visual Styles)
